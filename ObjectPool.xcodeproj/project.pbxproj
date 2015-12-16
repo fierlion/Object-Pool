@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		711551D91C2224B100B0846B /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711551D81C2224B100B0846B /* Library.swift */; };
 		71444C711C21041900BD7407 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71444C701C21041900BD7407 /* main.swift */; };
 		71444C781C21043F00BD7407 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71444C771C21043F00BD7407 /* Book.swift */; };
 		71444C7A1C21054A00BD7407 /* Pool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71444C791C21054A00BD7407 /* Pool.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		711551D81C2224B100B0846B /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		71444C6D1C21041900BD7407 /* ObjectPool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectPool; sourceTree = BUILT_PRODUCTS_DIR; };
 		71444C701C21041900BD7407 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		71444C771C21043F00BD7407 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				71444C701C21041900BD7407 /* main.swift */,
 				71444C771C21043F00BD7407 /* Book.swift */,
 				71444C791C21054A00BD7407 /* Pool.swift */,
+				711551D81C2224B100B0846B /* Library.swift */,
 			);
 			path = ObjectPool;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71444C7A1C21054A00BD7407 /* Pool.swift in Sources */,
+				711551D91C2224B100B0846B /* Library.swift in Sources */,
 				71444C781C21043F00BD7407 /* Book.swift in Sources */,
 				71444C711C21041900BD7407 /* main.swift in Sources */,
 			);
@@ -247,6 +251,7 @@
 				71444C761C21041900BD7407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
